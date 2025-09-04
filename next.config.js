@@ -2,9 +2,9 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
-      { protocol: 'https', hostname: 'cdn.sanity.io' } // add this
+      { protocol: 'https', hostname: 'cdn.sanity.io' },
     ],
   },
 };
+
 module.exports = nextConfig;
