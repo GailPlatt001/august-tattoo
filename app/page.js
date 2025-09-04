@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import './globals.css';
 import Gallery from '../components/Gallery';
 import { sanityClient, urlFor } from '../lib/sanity';
